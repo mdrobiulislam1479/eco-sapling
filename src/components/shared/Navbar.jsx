@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="bg-green-100">
-      <div className="container mx-auto py-8 flex flex-col sm:flex-row justify-between items-center gap-5">
+      <div className="container mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-5">
         <Logo />
         <div className="flex gap-6 items-center">
           <NavLink href={"/"}>Home</NavLink>

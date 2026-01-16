@@ -1,5 +1,6 @@
 import plants from "@/data/plants.json";
 import PlantCard from "../cards/PlantCard";
+import Link from "next/link";
 
 export default function PopularPlants() {
   return (
@@ -9,9 +10,12 @@ export default function PopularPlants() {
           <h2 className="text-4xl font-bold text-gray-900">Popular Plants</h2>
           <p className="text-gray-500 mt-2">Our most loved green friends</p>
         </div>
-        <button className="text-green-700 font-semibold hover:underline cursor-pointer">
+        <Link
+          href={"/plants"}
+          className="text-green-700 font-semibold hover:underline cursor-pointer"
+        >
           View All
-        </button>
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

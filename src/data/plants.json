@@ -21,7 +21,7 @@
     "light": "Low to Bright",
     "water": "Every 3-4 weeks",
     "description": "Practically indestructible, this plant purifies air and thrives on neglect.",
-    "image": "/images/plants/snake-plant.jpg"
+    "image": "https://i.ibb.co.com/RFtpFWR/snake-plant-4985304-1920.jpg"
   },
   {
     "id": "3",
@@ -33,7 +33,7 @@
     "light": "Bright Consistent",
     "water": "Once a week",
     "description": "The 'it' plant of interior design, featuring large, violin-shaped waxy leaves.",
-    "image": "/images/plants/fiddle-leaf.jpg"
+    "image": "https://i.ibb.co.com/kgRtXqnt/fig-166264-1920.jpg"
   },
   {
     "id": "4",
@@ -45,7 +45,7 @@
     "light": "Medium Indirect",
     "water": "Keep soil moist",
     "description": "Elegant white blooms that act as a natural humidifier and air filter.",
-    "image": "/images/plants/peace-lily.jpg"
+    "image": "https://i.ibb.co.com/7MMmB5p/peace-lilies-4269365-1280.jpg"
   },
   {
     "id": "5",
@@ -57,7 +57,7 @@
     "light": "Direct Sunlight",
     "water": "Every 3 weeks",
     "description": "A functional succulent known for the healing gel inside its thick leaves.",
-    "image": "/images/plants/aloe-vera.jpg"
+    "image": "https://i.ibb.co.com/JwXBTtjg/aloe-2926704-1280.jpg"
   },
   {
     "id": "6",
@@ -69,7 +69,7 @@
     "light": "Medium",
     "water": "Once a week",
     "description": "Produces 'babies' that hang down, making it perfect for hanging baskets.",
-    "image": "/images/plants/spider-plant.jpg"
+    "image": "https://i.ibb.co.com/mCwpPfjw/web-4923763-1920.jpg"
   },
   {
     "id": "7",
@@ -81,7 +81,7 @@
     "light": "Bright Indirect",
     "water": "Every 1-2 weeks",
     "description": "Features dark, glossy burgundy leaves that add a moody aesthetic to decor.",
-    "image": "/images/plants/rubber-tree.jpg"
+    "image": "https://i.ibb.co.com/QF48G8mS/rubber-tree-6003476-1920.jpg"
   },
   {
     "id": "8",
@@ -93,7 +93,7 @@
     "light": "Medium Indirect",
     "water": "Keep consistently moist",
     "description": "Stunning oversized leaves with silver-green stripes. Very sensitive to tap water.",
-    "image": "/images/plants/calathea.jpg"
+    "image": "https://i.ibb.co.com/4wSGLs32/brick-wall-7037031-1280.jpg"
   },
   {
     "id": "9",
@@ -105,7 +105,7 @@
     "light": "Any",
     "water": "When soil is dry",
     "description": "The perfect trailing plant for shelves, featuring heart-shaped variegated leaves.",
-    "image": "/images/plants/pothos.jpg"
+    "image": "https://i.ibb.co.com/mrB0JN4w/popular-house-plant-golden-pothos-6182102-1920.jpg"
   },
   {
     "id": "10",
@@ -117,7 +117,7 @@
     "light": "Low to Medium",
     "water": "Once a month",
     "description": "Waxy, architectural leaves that look plastic because they are so perfect.",
-    "image": "/images/plants/zz-plant.jpg"
+    "image": "https://i.ibb.co.com/84ryygGr/zamioculcas-zamiifolia-8231657-1920.jpg"
   },
   {
     "id": "11",
@@ -129,7 +129,7 @@
     "light": "Direct Sunlight",
     "water": "Weekly",
     "description": "A massive tropical plant that brings a jungle vibe to high-ceiling rooms.",
-    "image": "/images/plants/birds-paradise.jpg"
+    "image": "https://i.ibb.co.com/6J7MmpRQ/flower-236008-1920.jpg"
   },
   {
     "id": "12",
@@ -141,7 +141,7 @@
     "light": "Bright Indirect",
     "water": "Every 2 weeks",
     "description": "Unique pea-shaped foliage that cascades beautifully over the edges of pots.",
-    "image": "/images/plants/string-pearls.jpg"
+    "image": "https://i.ibb.co.com/HDk6wp6H/succulent-4985303-1920.jpg"
   },
   {
     "id": "13",
@@ -153,7 +153,7 @@
     "light": "Full Sun",
     "water": "Twice a week",
     "description": "Known for its calming scent and beautiful purple flower spikes.",
-    "image": "/images/plants/lavender.jpg"
+    "image": "https://i.ibb.co.com/HTPZCbKF/lavender-8876052-1920.jpg"
   },
   {
     "id": "14",
@@ -165,7 +165,7 @@
     "light": "Filter Light",
     "water": "High Humidity / Daily Mist",
     "description": "A classic lush fern that loves humidity—perfect for bathrooms.",
-    "image": "/images/plants/boston-fern.jpg"
+    "image": "https://i.ibb.co.com/r2n4RJpz/boston-fern-5114414-1920.jpg"
   },
   {
     "id": "15",
@@ -177,7 +177,7 @@
     "light": "Bright",
     "water": "Every 3 weeks",
     "description": "Symbolizes good luck and prosperity with its thick, woody stems.",
-    "image": "/images/plants/jade-plant.jpg"
+    "image": "https://i.ibb.co.com/GQX2Rw9M/jade-plant-6569195-1920.jpg"
   },
   {
     "id": "16",
@@ -189,7 +189,7 @@
     "light": "Bright Indirect",
     "water": "Weekly",
     "description": "Features unique pancake-shaped leaves on long, delicate stems.",
-    "image": "/images/plants/pilea.jpg"
+    "image": "https://i.ibb.co.com/bjdyF0HG/plant-7068174-1920.jpg"
   },
   {
     "id": "17",
@@ -201,7 +201,7 @@
     "light": "Bright Indirect",
     "water": "Keep soil moist",
     "description": "Adds an instant tropical feel with its feathery fronds.",
-    "image": "/images/plants/majesty-palm.jpg"
+    "image": "https://i.ibb.co.com/gGM95FL/palm-tree-2392892-1920.jpg"
   },
   {
     "id": "18",
@@ -213,7 +213,7 @@
     "light": "Medium",
     "water": "Weekly",
     "description": "A vigorous climber that can be trained to grow on trellises or walls.",
-    "image": "/images/plants/english-ivy.jpg"
+    "image": "https://i.ibb.co.com/3YfFFDH2/chair-5727263-1920.jpg"
   },
   {
     "id": "19",
@@ -225,7 +225,7 @@
     "light": "Bright",
     "water": "Every 3 weeks",
     "description": "Tiny, slow-growing succulent with striking white horizontal stripes.",
-    "image": "/images/plants/haworthia.jpg"
+    "image": "https://i.ibb.co.com/Xkkb93Ht/plant-7050736-1920.jpg"
   },
   {
     "id": "20",
@@ -237,6 +237,6 @@
     "light": "Bright",
     "water": "When top 50% of soil is dry",
     "description": "Tough, sword-like leaves on a sturdy trunk. Very drought-tolerant.",
-    "image": "/images/plants/yucca.jpg"
+    "image": "https://i.ibb.co.com/qYtJm3vQ/yucca-gigantea-167959-1920.jpg"
   }
 ]
