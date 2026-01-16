@@ -1,9 +1,12 @@
 "use client";
 import { ArrowRight } from "lucide-react";
+import { toast } from "react-toastify";
 
 export default function Newsletter() {
   const handleSubmit = (e) => {
     e.preventDefault();
+    e.target.reset();
+    toast.success("Your join request was sent successfully.");
   };
 
   return (
@@ -36,7 +39,7 @@ export default function Newsletter() {
                 />
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-300 px-6 py-4 font-semibold text-emerald-900 hover:bg-emerald-200 transition"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-300 px-6 py-4 font-semibold text-emerald-900 hover:bg-emerald-200 transition cursor-pointer"
                 >
                   Join the list
                   <ArrowRight className="h-5 w-5" />
