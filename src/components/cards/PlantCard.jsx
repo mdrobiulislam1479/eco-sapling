@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PlantCard({ plant }) {
-  const { name, category, price, image, difficulty } = plant;
+  const { id, name, category, price, image, difficulty } = plant;
   return (
     <div className="group relative bg-white rounded-xl p-4 transition-all duration-300 hover:shadow-2xl hover:shadow-green-100 border border-transparent hover:border-green-50">
       {/* Image Container */}
@@ -35,9 +36,12 @@ export default function PlantCard({ plant }) {
         </div>
 
         {/* Action Button */}
-        <button className="mt-4 w-full flex items-center justify-center gap-2 py-3 text-white rounded-xl font-semibold transition-all active:scale-95 bg-green-700 cursor-pointer">
+        <Link
+          href={`/plants/${id}`}
+          className="mt-4 w-full flex items-center justify-center gap-2 py-3 text-white rounded-xl font-semibold transition-all active:scale-95 bg-green-700 cursor-pointer"
+        >
           View Details
-        </button>
+        </Link>
       </div>
     </div>
   );
