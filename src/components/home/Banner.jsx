@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <section className="relative pt-20 pb-16 lg:pt-32 lg:pb-24">
+    <section className="relative pt-10 md:pt-20 pb-16 lg:pt-32 lg:pb-24">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="z-10">
