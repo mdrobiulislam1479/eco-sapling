@@ -15,6 +15,7 @@ export default function LoginForm() {
     if (email === "user@gmail.com" && password === "123456") {
       document.cookie = "auth=true; path=/";
       router.push("/plants");
+      router.refresh();
       toast.success("Login Successful!");
     }
   };
