@@ -2,6 +2,23 @@ import PlantCard from "@/components/cards/PlantCard";
 import React from "react";
 import plants from "@/data/plants.json";
 
+export const metadata = {
+  title: "Plants",
+  description:
+    "Browse our full plant catalog and find the perfect match for your space.",
+  openGraph: {
+    title: "Eco Sapling | Plants",
+    description:
+      "Browse our full plant catalog and find the perfect match for your space.",
+    url: "/plants",
+  },
+  twitter: {
+    title: "Eco Sapling | Plants",
+    description:
+      "Browse our full plant catalog and find the perfect match for your space.",
+  },
+};
+
 const AllPlant = () => {
   return (
     <div className="container mx-auto px-6 py-12">

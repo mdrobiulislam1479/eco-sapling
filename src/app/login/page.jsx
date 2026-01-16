@@ -1,5 +1,9 @@
 import LoginForm from "@/components/form/LoginForm";
 
+export const metadata = {
+  title: "Login",
+};
+
 export default function Login() {
   return (
     <div className="flex items-center justify-center px-4 pt-20">

@@ -4,6 +4,39 @@ import { ChevronLeft, Droplets, ShoppingBag, Sun, Wind } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const plant = plants.find((item) => id === item.id);
+
+  if (!plant) {
+    return {
+      title: "Plant not found",
+      description: "The plant you are looking for does not exist.",
+    };
+  }
+
+  return {
+    title: plant.name,
+    description: plant.description,
+    openGraph: {
+      title: `Eco Sapling | ${plant.name}`,
+      description: plant.description,
+      url: `/plants/${plant.id}`,
+      images: [
+        {
+          url: plant.image,
+          alt: plant.name,
+        },
+      ],
+    },
+    twitter: {
+      title: `Eco Sapling | ${plant.name}`,
+      description: plant.description,
+      images: [plant.image],
+    },
+  };
+}
+
 const PlantDetails = async ({ params }) => {
   const { id } = await params;
   const plant = plants.find((plant) => id === plant.id);
