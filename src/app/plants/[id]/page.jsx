@@ -1,3 +1,4 @@
+import NotFound from "@/app/not-found";
 import plants from "@/data/plants.json";
 import { ChevronLeft, Droplets, ShoppingBag, Sun, Wind } from "lucide-react";
 import Image from "next/image";
@@ -7,7 +8,7 @@ const PlantDetails = async ({ params }) => {
   const { id } = await params;
   const plant = plants.find((plant) => id === plant.id);
 
-  if (!plant) return <div className="p-10 text-center">Plant not found</div>;
+  if (!plant) return NotFound();
 
   return (
     <div className="min-h-screen bg-white">
