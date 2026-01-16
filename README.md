@@ -4,6 +4,8 @@ Eco Sapling is a clean, modern plant shop experience built with Next.js. It
 highlights curated greenery, care guidance, and a smooth browsing flow across
 home, collections, and plant detail views.
 
+## Live URL: https://eco-sapling.vercel.app
+
 ## Setup and installation
 
 1. Install dependencies:
